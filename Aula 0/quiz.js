@@ -7,16 +7,18 @@ let opcaoD = "15";
 
 //exibe as opções e pede digitação da resposta
 alert(pergunta + "\n" + opcaoA + "\n" + opcaoB + "\n" + opcaoC + "\n" + opcaoD);
-let opcaoDigitada = prompt("Digitte a opção correta:");
 
-//checa se a entrada digitada está correta
-if (opcaoDigitada == opcaoB){
-    alert("Resposta correta");
-} else if (opcaoDigitada != opcaoA
-    && opcaoDigitada != opcaoB
-    && opcaoDigitada != opcaoC
-    && opcaoDigitada != opcaoD) {
-    alert("Resposta inválida");
-} else {
-    alert("Resposta incorreta");
+while (true) {
+    let opcaoDigitada = prompt("Digitte a opção correta:");
+    if (opcaoDigitada != opcaoA
+        && opcaoDigitada != opcaoB
+        && opcaoDigitada != opcaoC
+        && opcaoDigitada != opcaoD) {
+        alert("Resposta inválida");
+    } else if {
+        alert("Resposta incorreta");
+    } else {
+        alert("Resposta correta");
+        break;
+    }
 }
