@@ -5,7 +5,7 @@ let milhar = 0;
 
 let i = 0;
 
-let numero = Math.round(Math.abs(Math.random() * (2 - 1) + 1));
+let numero = Math.round(Math.random() * (2 - 1) + 1);
 
 if (numero == 1) {
     while (i < 10000) {
