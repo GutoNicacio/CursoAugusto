@@ -5,8 +5,9 @@ while (true) {
     let numero1 = Math.floor(Math.abs(Math.random() * (100 - 0) + 0));
     let numero2 = Math.floor(Math.abs(Math.random() * (100 - 0) + 0));
 
-    alert("JOGO MATEMÁTICO! Vidas: " + vidas + ", pontos: " + pontos + "!\n");
-    let valorDigitado = prompt("Quanto é " + numero1 + " + " + numero2 + "?");
+    let valorDigitado = prompt("JOGO MATEMÁTICO!\n"
+    + "Vidas: " + vidas + ", pontos: " + pontos + "!\n"
+    + "Quanto é " + numero1 + " + " + numero2 + "?");
 
     if (valorDigitado == numero1 + numero2) {
         pontos = pontos + 1;
