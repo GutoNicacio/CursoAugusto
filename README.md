@@ -14,6 +14,7 @@
 - aplicando o que foi visto na Aula 0;
 - gerando números aleatórios.
 
-### [Aula 2]
+### [Aula 2](https://github.com/GutoNicacio/CursoAugusto/tree/main/Aula%202)
 - revisão;
-- incrementando códigos das aulas anteriores.
+- incrementando códigos das aulas anteriores;
+- criando novo jogo matemático.
