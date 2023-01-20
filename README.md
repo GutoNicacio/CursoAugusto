@@ -10,5 +10,10 @@
 - estruturas condicionais;
 - estruturas de repetição.
 
-### [Aula 1]()
-- 
+### [Aula 1](https://github.com/GutoNicacio/CursoAugusto/tree/main/Aula%201)
+- aplicando o que foi visto na Aula 0;
+- gerando números aleatórios.
+
+### [Aula 2]
+- revisão;
+- incrementando códigos das aulas anteriores.
