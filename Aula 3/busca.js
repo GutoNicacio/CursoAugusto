@@ -10,7 +10,7 @@ let notas = [
 nome = prompt("Nome do aluno:");
 
 for (i=0; i<notas.length; i++) {
-    if (notas[i][0] == nome) {
+    if (notas[i][0].toLowerCase() == nome.toLowerCase().trim()) {
         alert(notas[i][1]);
     }
 }
