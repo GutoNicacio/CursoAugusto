@@ -32,8 +32,7 @@ for (i=0; i<notas.length; i++) {
 
 // XXX
 
-let lista1 = [
-    ["Matemática"],
+let lista1 = [["Matemática", [["Augusto", 6], ["João", 9], ["Guto", 7], ["Alan", 4], ["Lucas", 8], ["Carla", 10]]],
     ["Português"],
     ["História"],
     ["Geografia"]
