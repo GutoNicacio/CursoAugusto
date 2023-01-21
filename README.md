@@ -18,3 +18,13 @@
 - revisão;
 - incrementando códigos das aulas anteriores;
 - criando novo jogo matemático.
+
+### [Aula 3](https://github.com/GutoNicacio/CursoAugusto/tree/main/Aula%203)
+- array.
+
+### [Aula 4](https://github.com/GutoNicacio/CursoAugusto/tree/main/Aula%204)
+- exercícios com array;
+- funções.
+
+### [Aula 5](https://github.com/GutoNicacio/CursoAugusto/tree/main/Aula%205/Contador%20HTML)
+- iniciando html.
