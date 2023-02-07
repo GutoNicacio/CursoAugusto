@@ -5,3 +5,15 @@ lista.shift(); //remove o primeiro elemento
 lista.push(); //insere como último elemento
 
 //   XXX
+
+let pacientes = [
+    "Augusto",
+    "Luiz",
+    "Guto",
+    "William",
+    "David"
+];
+
+while (pacientes.length > 0) {
+    alert("Paciente: " + pacientes.shift() + ", se diriga ao atendimento!");
+}
