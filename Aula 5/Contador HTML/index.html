@@ -12,22 +12,25 @@
         <span id="valor-contador-3" style="color: blue;">0</span>
         <button id="button-contador-3">+1</button>
         <script type="text/javascript">
-            let contador1 = 0;
-            let contador2 = 0;
-            let contador3 = 0;
+            // let contador1 = 0;
+            // let contador2 = 0;
+            // let contador3 = 0;
             function button1Click() {
-                contador1 += 1;
-                document.querySelector("#valor-contador-1").innerText = contador1;
+                let contador1 = document.querySelector("#valor-contador-1").innerText;
+                contador1 = parseInt(contador1);
+                document.querySelector("#valor-contador-1").innerText = contador1 + 1;
             }
             document.querySelector("#button-contador-1").onclick = button1Click;
             function button2Click() {
-                contador2 += 1;
-                document.querySelector("#valor-contador-2").innerText = contador2;
+                let contador2 = document.querySelector("#valor-contador-2").innerText;
+                contador2 = parseInt(contador2);
+                document.querySelector("#valor-contador-2").innerText = contador2 + 1;
             }
             document.querySelector("#button-contador-2").onclick = button2Click;
             function button3Click() {
-                contador3 += 1;
-                document.querySelector("#valor-contador-3").innerText = contador3;
+                let contador3 = document.querySelector("#valor-contador-3").innerText;
+                contador3 = parseInt(contador3);
+                document.querySelector("#valor-contador-3").innerText = contador3 + 1;
             }
             document.querySelector("#button-contador-3").onclick = button3Click;
         </script>
