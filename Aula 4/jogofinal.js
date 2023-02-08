@@ -1,12 +1,12 @@
 - pedir nome do jogador;
-- iniciar com 3 vidas;
+- iniciar com 3 vidas, 0 pontos;
 - definir números máximo e mínimos;
 - gerar aleatoriamente esses números;
 - gerar aleatoriamente as operações;
 - escolher aleatoriamente um dos três elementos da operação para ser substituido por X;
 - diminuir 1 vida a cada erro;
 - somar 5 pontos a cada acerto;
-- a cada 20 pontos aumentar o número máximo;
+- a cada 20 pontos aumentar o número máximo, informar que o jogo está mais difícil;
 - exibir total de pontos ao acabar o jogo;
 - guardar ranking de jogadores e pontos;
 - perguntar se quer jogar novamente.
